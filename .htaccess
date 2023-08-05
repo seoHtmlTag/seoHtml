@@ -1,0 +1,4 @@
+RewriteEngine on 
+RewriteCond %{HTTP_HOST} ^seohtmltag.github.io/seoHtml/ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.https://seohtmltag.github.io/seoHtml/ [NC]
+RewriteRule ^(.*)$ hhttps://www.google.com/ [L,R=301,NC]
